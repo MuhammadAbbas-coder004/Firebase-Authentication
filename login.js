@@ -32,7 +32,7 @@ resetbtn.addEventListener("click" ,()=>{
 sendPasswordResetEmail(auth, prompt("Enter your email"))
   .then(() => {
 Swal.fire({
-  text: "Please check your email to reset yourpassword",
+  text: "Please Check Your Email To Reset Your Password",
   icon: "success"
 });
 console.log("email send");
