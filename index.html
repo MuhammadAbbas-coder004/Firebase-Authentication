@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>login</title>
+</head>
+<body>
+  <div class="container">
+    <div class="title">facebook</div>
+
+    <form id="login" >
+      <input type="email" id="loginemail" placeholder="Email address or phone number" required  />
+      <input type="password" id="loginpassword" placeholder="Password" required />
+      <button type="submit" class="btn-login"><a href="logout.html">Log In</a></button>
+      <br>
+      <button  type="submit"   class="btn-create"><a href="register.html">Create New Account</a></button>
+    </form>
+    <div class="divider">or</div>
+        <button class="forgotpassword">forgot password</button>
+  </div>
+  
+  
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script  type="module" src="./login.js"></script>
+</body>
+</html>
